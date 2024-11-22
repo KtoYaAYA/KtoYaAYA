@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "Next Art";
+    src: url(../font/NEXT\ ART_Bold.otf);
+}
+
+body, a{
+    font-family: Verdana, sans-serif;
+}
+
+.wrapper{
+    width: 1180px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(../background/BACKGROUND.png);
+    height: 100vh;
+    background-size: cover; 
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu .menu_item{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-family: "Next Art";
+    margin-top: 551px;
+    font-size: 50px;
+}
+
